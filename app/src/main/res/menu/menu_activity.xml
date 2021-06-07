@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/idMenu" android:title="@string/txtMenu" />
+    <item android:id="@+id/idMenuCrudRevista" android:title="@string/txt_menu_crud_revista" />
+    <item android:id="@+id/idMenuRegistroRevista" android:title="@string/txt_menu_registro_revista" />
+</menu>

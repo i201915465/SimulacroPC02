@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idTitAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registro_de_revista"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idNombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txtNombre" />
+
+            <EditText
+                android:id="@+id/txtRevistaNombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="10dp"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/idFrecuencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txtFrecuencia" />
+
+            <Spinner
+                android:id="@+id/spnRevistaFrecuencia"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                android:entries="@array/arrayFrecuencia"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/idPais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txtPais" />
+
+            <Spinner
+                android:id="@+id/spnRevistaPais"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                android:entries="@array/arrayPais"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/idEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txtEstado" />
+
+            <Spinner
+                android:id="@+id/spnRevistaEstado"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                android:entries="@array/arrayEstado"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/idbtnEnvAut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/txtEnviar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

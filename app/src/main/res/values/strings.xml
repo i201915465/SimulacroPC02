@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SimulacroPC02</string>
+    <string name="txtNombre">Nombre :</string>
+    <string name="txtFrecuencia">Frecuencia :</string>
+    <string name="txtPais">País</string>
+    <string name="txtEstado">Estado</string>
+    <string name="txtEnviar">Enviar</string>
+    <string name="txt_registro_de_revista">Registro de Revista</string>
+    <string name="txtMenu">Menu</string>
+    <string name="txt_menu_crud_revista">Actualiza Revista</string>
+    <string name="txt_menu_registro_revista">Registro Revista</string>
+    <string-array name="arrayFrecuencia">
+        <item>[Seleccione]</item>
+        <item>Diario</item>
+        <item>Semanal</item>
+        <item>Quincenal</item>
+    </string-array>
+    <string-array name="arrayPais">
+        <item>[Seleccione]</item>
+        <item>Perú</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+    </string-array>
+    <string-array name="arrayEstado">
+        <item>[Seleccione]</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+</resources>
